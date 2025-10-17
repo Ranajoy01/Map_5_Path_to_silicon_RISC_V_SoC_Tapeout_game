@@ -82,8 +82,8 @@ $ sudo make install
     - Linear region
     - Saturation region
 ### :zap: Spice deck (netlist, technlogy library inclusion , simulation commands)   
-```netlist
-*Model Description
+```spice
+* Model Description
 .param temp=27
 
 
@@ -91,7 +91,7 @@ $ sudo make install
 .lib "sky130_fd_pr/models/sky130.lib.spice" tt
 
 
-*Netlist Description
+* Netlist Description
 
 
 
