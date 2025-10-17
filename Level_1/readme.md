@@ -67,7 +67,7 @@ $ sudo make install
  $ git clone https://github.com/kunalg123/sky130CircuitDesignWorkshop.git
  ```
 
- ## :microscope: Drain Current vs Drain-to-source voltage characteristics for Long channel NMOS
+ ## :microscope: Drain Current (Id) vs Drain-to-source voltage (Vds) characteristics for Long channel NMOS
  ### :zap: Introduction to NMOS Id vs Vds Characteristics
  
  - NMOS is one of the basic building block in Complementary-MOS technology (Combine PMOS and NMOS).
