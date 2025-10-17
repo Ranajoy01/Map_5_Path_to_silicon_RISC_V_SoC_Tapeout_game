@@ -7,7 +7,7 @@
 
 <br>
 
-:rocket: Welcome to the <b>`Map-5(Week-4): BabySoC Post Synthesis GLS and STA Fundamentals` </b> gameplay report of the <b> RISC-V SoC Tapeout EdTech Game </b> :video_game:. This map is divided into three levels-
+:rocket: Welcome to the <b>`Map-5(Week-4): CMOS circuit design and spice simulation` </b> gameplay report of the <b> RISC-V SoC Tapeout EdTech Game </b> :video_game:. This map is divided into three levels-
 
 -  <b>Level-1:</b> :dart: Post synthesis GLS of VSDBabySoC and verification with respect to functional simulation.
 -  <b>Level-2:</b> :book: Fundamentals of Static Timing Analysis (STA).
@@ -15,12 +15,12 @@
 
 <div align="center">:star::star::star::star::star::star:</div>
 
-## 🗺️ Explore Map-5(Week-4): BabySoC Post Synthesis GLS and STA Fundamentals  
+## 🗺️ Explore Map-5(Week-4): CMOS circuit design and spice simulation
   <details>
-  <summary>:checkered_flag: <b>Level-1:</b> Post synthesis GLS of VSDBabySoC and verification with respect to functional simulation</summary>
+  <summary>:checkered_flag: <b>Level-1:</b> Setup ngspice and basics of NMOS drain current vs drain to source voltage </summary>
     
-  ##  :checkered_flag: Level-1: Post synthesis GLS of VSDBabySoC and verification with respect to functional simulation
-  :rocket:In this level, I have learned the synthesis and gate level simulation of VSDBabySoC design (integrated `rvmyth` core, `dac` and `pll`).
+  ##  :checkered_flag: Level-1: Setup ngspice and basics of NMOS drain current vs drain to source voltage
+  :rocket:In this level, I have installed the ngspice and learned basic structure and operation of NMOS.
   
   :walking: <b>[Explore Level-1 Gameplay](Level_1/readme.md)</b>
   
@@ -29,10 +29,10 @@
   
   ---
   <details>
-  <summary>:checkered_flag: <b>Level-2:</b>  Fundamentals of Static Timing Analysis (STA) </summary>
+  <summary>:checkered_flag: <b>Level-2:</b>  Velocity saturation and basics of CMOS inverter voltage transfer characteristics </summary>
   
-  ##  :checkered_flag: Level-2:  Fundamentals of Static Timing Analysis (STA)
-   :rocket:At this stage, I studied the fundamentals of static timing analysis like critical paths, slack, setup ,hold etc.
+  ##  :checkered_flag: Level-2: Velocity saturation and basics of CMOS inverter voltage transfer characteristics 
+   :rocket:At this stage, I studied some short channel effects and CMOS basics.
   :walking: <b>[Explore Level-2 Gameplay](Level_2/readme.md)</b>
   
   :chart_with_upwards_trend: <b>Level-2 Status:</b> :white_check_mark: Completed
@@ -40,10 +40,10 @@
 
   ---
   <details>
-  <summary>:checkered_flag: <b>Level-3:</b>  Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report </summary>
+  <summary>:checkered_flag: <b>Level-3:</b>  CMOS switching threshold and basic dynamic simulations  </summary>
   
-  ##  :checkered_flag: Level-3: Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report
-   :rocket:At this stage, I performed static timing analysis of VSDBabySoC using `OpenSTA` and interpreted the timing report.
+  ##  :checkered_flag: Level-3: CMOS switching threshold and basic dynamic simulations
+   :rocket:At this stage, I learned about swithing threshold in CMOS inverter and dynamic simulations (rise fall delay).
   
   :walking: <b>[Explore Level-3 Gameplay](Level_3/readme.md)</b>
   
@@ -52,10 +52,10 @@
 
   ---
   <details>
-  <summary>:checkered_flag: <b>Level-4:</b>  Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report </summary>
+  <summary>:checkered_flag: <b>Level-4:</b>  CMOS robustness ( Noise margin evaluation ) </summary>
   
-  ##  :checkered_flag: Level-4: Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report
-   :rocket:At this stage, I performed static timing analysis of VSDBabySoC using `OpenSTA` and interpreted the timing report.
+  ##  :checkered_flag: Level-4:  CMOS robustness ( Noise margin evaluation ) 
+   :rocket:At this stage, I learned about robustness of CMOS inverrter through noise margin evaluation.
   
   :walking: <b>[Explore Level-4 Gameplay](Level_4/readme.md)</b>
   
@@ -64,10 +64,10 @@
 
   ---
   <details>
-  <summary>:checkered_flag: <b>Level-5:</b>  Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report </summary>
+  <summary>:checkered_flag: <b>Level-5:</b> CMOS robustness ( Power supply and Device variation evaluation )  </summary>
   
-  ##  :checkered_flag: Level-5: Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report
-   :rocket:At this stage, I performed static timing analysis of VSDBabySoC using `OpenSTA` and interpreted the timing report.
+  ##  :checkered_flag: Level-5: CMOS robustness ( Power supply and Device variation evaluation )  
+   :rocket:At this stage, I learned about robustness of CMOS inverrter through Power supply and Device variation evaluation.
   
   :walking: <b>[Explore Level-5 Gameplay](Level_5/readme.md)</b>
   
