@@ -144,10 +144,13 @@ Id is considered negative current based on direction (because NMOS current direc
 
 ### :zap: Analysis of the plot 
 #### :rocket: We can observe different operating regions in the plot (due to different terminal voltage)
-:warning: Here Vsb is zero (positive Vsb causes threshold voltage shift)
+:warning: Here Vsb is zero (positive Vsb causes threshold voltage shift).
+
 :warning: Vth signifies the Vgs value at which strong inversion occurs.
+
 :warning: Here drift current is considered which is due to potential difference.
-:warning: Vt0,&gamma;,
+
+:warning: Vt0 , &gamma; ,  &lambda; are technology model parameters.
 
 ![vth_1](images/vth_1.png)
 
