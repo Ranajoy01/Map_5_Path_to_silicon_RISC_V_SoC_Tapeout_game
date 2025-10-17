@@ -44,6 +44,24 @@ $ sudo make install
 
  <div align="center">:star::star::star::star::star::star:</div> 
 
+ ## :book: What is the importance of Spice tool in VLSI?
+ :rocket: Circuit design (in VLSI domain) includes combining of transistors in different manners to perform a certain function. But the importance of spice simulations are described below.
+
+ - Spice tool is used for detailed characterization of transistors (PMOS and NMOS in case of CMOS) used in a circuit to analyze delay, load , power, noise margin, reliable working region etc.
+  
+ ![imp_sp_1](images/imp_sp_1.png)
+
+ - This ciruit represent a two stage buffer.
+ - Here, the input slew (transition delay) at each buffer input and corresponding buffer load capacitance causes different delays.
+ - Delay tables are used for static timing analysis of this circuit.
+
+   ![imp_sp_2](images/imp_sp_2.png)
+   
+ - Spice is used to make delay tables for circuits.
+   
+
+ <div align="center">:star::star::star::star::star::star:</div> 
+
  ## :trophy: Level Status: 
 
 - All objectives completed.
