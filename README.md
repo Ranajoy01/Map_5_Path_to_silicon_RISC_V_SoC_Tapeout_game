@@ -51,7 +51,7 @@
   </details>
 
   ---
-
+  <details>
   <summary>:checkered_flag: <b>Level-4:</b>  Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report </summary>
   
   ##  :checkered_flag: Level-4: Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report
@@ -63,7 +63,7 @@
   </details>
 
   ---
-
+  <details>
   <summary>:checkered_flag: <b>Level-5:</b>  Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report </summary>
   
   ##  :checkered_flag: Level-5: Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report
