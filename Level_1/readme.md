@@ -81,13 +81,13 @@ $ sudo make install
     - Cutoff region
     - Linear region
     - Saturation region
-### :zap: Spice deck (netlist, technlogy library inclusion , simulation commands)    
-```spice
+### :zap: Spice deck (netlist, technlogy library inclusion , simulation commands)   
+```netlist
 *Model Description
 .param temp=27
 
 
-*Including sky130 library files
+*Including sky130 library files tt signifiws typical corner
 .lib "sky130_fd_pr/models/sky130.lib.spice" tt
 
 
@@ -116,7 +116,9 @@ setplot dc1
 
 .end
 ```
-  
+### :zap: Characteristic plot
+
+
 
  <div align="center">:star::star::star::star::star::star:</div> 
 
