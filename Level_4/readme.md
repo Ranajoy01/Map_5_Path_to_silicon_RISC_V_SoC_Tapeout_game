@@ -6,7 +6,7 @@
 
 ---
 
-[Go to the previous level](../Level_1/readme.md)
+[Go to the previous level](../Level_3/readme.md)
 
 <div align="center">:star::star::star::star::star::star:</div> 
 
