@@ -190,7 +190,7 @@ Id is considered negative current based on direction (because NMOS current direc
  ## :trophy: Level Status: 
 
 - All objectives completed.
-- I have synthesized VSDBabySoC design, performed GLS Simulation and validated GLS with respect to functional simulation.
+- I have learned about spice simulation and NMOS Id vs Vds characteristics.
 - 🔓 Next level unlocked 🔜 [Level-2: Velocity saturation and basics of CMOS inverter voltage transfer characteristics
 ](../Level_2/readme.md).
   
