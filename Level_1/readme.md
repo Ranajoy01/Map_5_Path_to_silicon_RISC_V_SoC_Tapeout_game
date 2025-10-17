@@ -49,7 +49,7 @@ $ sudo make install
 
  - Spice tool is used for detailed characterization of transistors (PMOS and NMOS in case of CMOS) used in a circuit to analyze delay, load , power, noise margin, reliable working region etc.
   
- ![imp_sp_1](images/imp_sp_1.png)
+   ![imp_sp_1](images/imp_sp_1.png)
 
  - This ciruit represent a two stage buffer.
  - Here, the input slew (transition delay) at each buffer input and corresponding buffer load capacitance causes different delays.
@@ -58,7 +58,65 @@ $ sudo make install
    ![imp_sp_2](images/imp_sp_2.png)
    
  - Spice is used to make delay tables for circuits.
-   
+
+ <div align="center">:star::star::star::star::star::star:</div> 
+
+ ## :microscope: Download required SKY130 spice files 
+ Clone the workshop repository-
+ ```bash
+ $ git clone https://github.com/kunalg123/sky130CircuitDesignWorkshop.git
+ ```
+
+ ## :microscope: Drain Current vs Drain-to-source voltage characteristics for Long channel NMOS
+ ### :zap: Introduction to NMOS Id vs Vds Characteristics
+ 
+ - NMOS is one of the basic building block in Complementary-MOS technology (Combine PMOS and NMOS).
+ - NMOS represent n-type channel based Metal Oxide Semiconductor Field Effect Transistor (MOSFET).
+ - NMOS has four terminals
+   - Source (S)
+   - Drain (D)
+   - Gate (G)
+   - Body (B)
+ - Id vs Vds (at different Vgs) represent the variation of drain current with respect to drain to source voltage. This characteristics is used to analyse
+    - Cutoff region
+    - Linear region
+    - Saturation region
+### :zap: Spice deck (netlist, technlogy library inclusion , simulation commands)    
+```spice
+*Model Description
+.param temp=27
+
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+
+*Netlist Description
+
+
+
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=5 l=2
+
+R1 n1 in 55
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vdd 0 1.8 0.1 Vin 0 1.8 0.2
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end
+```
+  
 
  <div align="center">:star::star::star::star::star::star:</div> 
 
