@@ -6,7 +6,7 @@
 
 <div align="center">:star::star::star::star::star::star:</div> 
 
-# Level-1: Post synthesis GLS of VSDBabySoC and verification with respect to functional simulation
+# Level-1: Setup ngspice and basics of NMOS drain current vs drain to source voltage
 
 ## List of Objectives
 
