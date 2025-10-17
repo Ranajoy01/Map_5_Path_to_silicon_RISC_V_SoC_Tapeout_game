@@ -7,11 +7,7 @@
 
 <br>
 
-:rocket: Welcome to the <b>`Map-5(Week-4): CMOS circuit design and spice simulation` </b> gameplay report of the <b> RISC-V SoC Tapeout EdTech Game </b> :video_game:. This map is divided into three levels-
-
--  <b>Level-1:</b> :dart: Post synthesis GLS of VSDBabySoC and verification with respect to functional simulation.
--  <b>Level-2:</b> :book: Fundamentals of Static Timing Analysis (STA).
--  <b>Level-3:</b> :dart: Generate static timing analysis report of VSDBabySoC (post synthesis) and describe the report.
+:rocket: Welcome to the <b>`Map-5(Week-4): CMOS circuit design and spice simulation` </b> gameplay report of the <b> RISC-V SoC Tapeout EdTech Game </b> :video_game:. This map is divided into five levels based on day by day learnings.
 
 <div align="center">:star::star::star::star::star::star:</div>
 
