@@ -15,7 +15,32 @@
 
  <div align="center">:star::star::star::star::star::star:</div> 
 
+## :microscope: Setup Ngspice
+### :zap: Download tarball from [https://sourceforge.net/projects/ngspice/files/ ](https://sourceforge.net/projects/ngspice/files/) to a local directory.
+### :zap: Unpack it-
+```bash
+$ tar -zxvf ngspice-45.2.tar.gz
+```
+### :zap: Build release directory and configure-
+```bash
+$ cd ngspice-45.2
+$ mkdir release
+$ cd release
+$ ../configure --with-x --with-readline=yes --disable-debug
+```
+### :zap: If xaw file error install the required package-
+```bash
+$ sudo apt install libxaw7-dev libxmu-dev libxt-dev libx11-dev libxpm-dev
+```
+### :zap: Install ngspice (system wide) -
+```bash
+$ make
+$ sudo make install
+```
 
+![set_ngs](images/set_ngs.png)
+
+:100: Ngspice installation successful
 
  <div align="center">:star::star::star::star::star::star:</div> 
 
