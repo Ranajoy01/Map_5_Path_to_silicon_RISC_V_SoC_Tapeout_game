@@ -109,7 +109,8 @@ plot tran1.out tran1.in tran2.out tran3.out tran4.out tran5.out tran6.out ylabel
 ![pow_dy](images/pow_dy.png)
 
 ### :zap: Analysis
-- For Static analysis-
+- For Static analysis
+  
 |Plot line|Power Supply|
 |---|---|
 |dc1.out|1.8V|
@@ -118,7 +119,8 @@ plot tran1.out tran1.in tran2.out tran3.out tran4.out tran5.out tran6.out ylabel
 |dc4.out|1.2V|
 |dc5.out|1.0V|
 |dc6.out|0.8V|
-- For dynamic Analysis-
+- For dynamic Analysis
+  
 |Plot line|Power Supply|
 |---|---|
 |tran1.out|1.8V|
