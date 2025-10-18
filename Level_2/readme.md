@@ -24,6 +24,8 @@
 - Current behaviour will not remain same as the long channel device.
 - Current will saturate due to velocity saturation effect.
 
+---
+
 ### :zap: Spice decks for Id vs Vds
 #### Spice deck for higher node (NMOS W = 5000 nm and l =2000 nm, supply voltage = 1.8 v, input voltage = 1.8 v)
 ```spice
@@ -97,7 +99,7 @@ setplot dc1
 .end
 ```
 
-### :zap: Id vs Vds plot comparision for different nodes
+### :zap: Id vs Vds plots for different nodes
 #### Id vs Vds plot for higher node (NMOS W = 5000 nm and l =2000 nm, supply voltage = 1.8 v, input voltage = 1.8 v)
 
 ![Id_vds_h](images/Id_vds_h.png)
@@ -106,8 +108,19 @@ setplot dc1
 
 ![Id_vds_l](images/Id_vds_l.png)
 
-  
+### :zap: Analysis and comparision
+#### <mark>Higher node has higher peak current 400 uA and lower node has lower peak current</mark>
+- This occurs due to velocity saturation in short channel device. In lower node, early saturation causes lower peak current.
+- For short channel device differenmt drain current model is used.
 
+#### <mark>Quadratic relation of Id with Vgs at higher Vds for higher node and linear relation Id with Vgs at higher Vds for lower node </mark>
+- In short channel device at higher vds due to high horizontal electric field vetween source and drain through the channel  caused carriers velocity saturation. This causes linear change of Id with Vgs.
+- Here carrier drift velocity becomes nearly constant thus drift drain current also become constant.
+
+
+---
+
+### :zap: Spice deck for Id vs Vgs
 
  <div align="center">:star::star::star::star::star::star:</div> 
 
