@@ -90,7 +90,7 @@ Vin2 in2 0 1.8V
  ## :trophy: Level Status: 
 
 - All objectives completed.
-- I have synthesized VSDBabySoC design, performed GLS Simulation and validated GLS with respect to functional simulation.
+- I have learned noise margin variation of CMOS inverter with PMOS width variation.
 - 🔓 Next level unlocked 🔜 [Level-5: CMOS robustness ( Power supply and Device variation evaluation )
 ](../Level_5/readme.md).
   
