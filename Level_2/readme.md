@@ -261,7 +261,7 @@ setplot dc1
  ## :trophy: Level Status: 
 
 - All objectives completed.
-- I have synthesized VSDBabySoC design, performed GLS Simulation and validated GLS with respect to functional simulation.
+- I have learned differences between higher node and lower node nmos and basics of CMOS inverter VTC.
 - 🔓 Next level unlocked 🔜 [Level-3: CMOS switching threshold and basic dynamic simulations](../Level_3/readme.md).
   
 <div align="center">:star::star::star::star::star::star:</div> 
