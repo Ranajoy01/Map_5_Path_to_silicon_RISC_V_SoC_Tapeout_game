@@ -10,8 +10,7 @@
 
 <div align="center">:star::star::star::star::star::star:</div> 
 
-# Level-2: Post synthesis GLS of VSDBabySoC and verification with respect to functional simulation
-
+# Level-2: Velocity saturation and basics of CMOS inverter voltage transfer characteristics
 ## List of Objectives
 
 - :microscope: <b>Practical Objective-1:</b> []()
@@ -27,7 +26,7 @@
 
 - All objectives completed.
 - I have synthesized VSDBabySoC design, performed GLS Simulation and validated GLS with respect to functional simulation.
-- 🔓 Next level unlocked 🔜 [Level-2: Fundamentals of Static Timing Analysis (STA)](../Level_2/readme.md).
+- 🔓 Next level unlocked 🔜 [Level-3: CMOS switching threshold and basic dynamic simulations](../Level_3/readme.md).
   
 <div align="center">:star::star::star::star::star::star:</div> 
 
