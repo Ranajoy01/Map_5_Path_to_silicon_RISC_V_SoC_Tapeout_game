@@ -26,9 +26,13 @@
 ![nos_dia](images/nos_dia.png)
 
 ### :zap: Spice deck
-### :zap: Noise margin variation plot for CMOS inverter with PMOS width variation
-### :zap: Analysis
+```spice
 
+```
+### :zap: Noise margin variation plot for CMOS inverter with PMOS width variation
+![nos_plot](images/nos_plot.png)
+### :zap: Analysis
+- 
  <div align="center">:star::star::star::star::star::star:</div> 
 
  ## :trophy: Level Status: 
