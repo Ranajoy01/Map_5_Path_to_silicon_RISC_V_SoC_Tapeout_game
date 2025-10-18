@@ -21,6 +21,44 @@
 ### :zap: Spice deck
 #### Spice for static analysis
 ```spice
+*Model Description
+.param temp=27
+
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+
+*Netlist Description
+
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
+
+
+Cload out 0 50fF
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+.control
+
+let powersupply = 1.8
+alter Vdd = powersupply
+	let voltagesupplyvariation = 0
+	dowhile voltagesupplyvariation < 6
+	dc Vin 0 1.8 0.01
+	let powersupply = powersupply - 0.2
+	alter Vdd = powersupply
+	let voltagesupplyvariation = voltagesupplyvariation + 1
+      end
+ 
+plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.out vs in xlabel "input voltage(V)" ylabel "output voltage(V)" title "Inveter dc characteristics as a function of supply voltage"
+
+.endc
+
+.end
+
 ```
 #### Spice for dynamic analysis
 ```spice
@@ -71,14 +109,24 @@ plot tran1.out tran1.in tran2.out tran3.out tran4.out tran5.out tran6.out ylabel
 ![pow_dy](images/pow_dy.png)
 
 ### :zap: Analysis
+- For Static analysis-
 |Plot line|Power Supply|
 |---|---|
-|tran1.out|1.8|
-|tran2.out|1.6|
-|tran3.out|1.4|
-|tran4.out|1.2|
-|tran5.out|1.0|
-|tran6.out|0.8|
+|dc1.out|1.8V|
+|dc2.out|1.6V|
+|dc3.out|1.4V|
+|dc4.out|1.2V|
+|dc5.out|1.0V|
+|dc6.out|0.8V|
+- For dynamic Analysis-
+|Plot line|Power Supply|
+|---|---|
+|tran1.out|1.8V|
+|tran2.out|1.6V|
+|tran3.out|1.4V|
+|tran4.out|1.2V|
+|tran5.out|1.0V|
+|tran6.out|0.8V|
 - From static analysis plot we get that for PMOS width increase the gain decrease as in transition region output voltage change with respect to input voltage change is low.
 - But at lower power supply (< 0.8 V) gain decrease as load driving capability decrease due to lower supply voltage.
 - In dynamic analysis for lower supply case we observe that output voltage level do not change properly.
