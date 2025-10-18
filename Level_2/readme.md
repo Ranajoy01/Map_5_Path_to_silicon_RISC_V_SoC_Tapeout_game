@@ -228,6 +228,32 @@ setplot dc1
 - In short channel device at higher vds due to high horizontal electric field vetween source and drain through the channel  caused carriers velocity saturation. This causes linear change of Id with Vgs.
 - Here carrier drift velocity becomes nearly constant thus drift drain current also become constant.
 
+ <div align="center">:star::star::star::star::star::star:</div> 
+
+ ## :microscope: Introduction to CMOS inverter Voltage Transfer Characteristics (VTC)
+ ### :zap: CMOS inverter circuit diagram 
+ ![inv_cir](images/inv_cir.png)
+
+ - PMOS and NMOS are used to design CMOS inverter.
+ - PMOS is used in pull-up circuit.
+ - NMOS is used in pull down circuit.
+
+### :zap: CMOS inverter voltage transfer characteristics procedure
+#### Step-1: PMOS and NMOS Id vs Vds characteristics
+![s1](images/s1.png)
+#### Step-2: PMOS Vgsp to Vin conversion
+![s3](images/s3.png)
+#### Step-3: PMOS Vdsp to Vout conversion
+![s4](images/s4.png)
+#### Step-4: Load curves for PMOS and NMOS
+![s5](images/s5.png)
+#### Step-5: Superimpose the load curves of PMOS and NMOS and get the Vout vs Vin  curve (VTC curve)
+![s6](images/s6.png)
+
+
+### :zap: Analysis
+- When only one MOS is on then we get any one logic level and this region used for digital logic
+- When both MOS are in saturation region then it provide gain and used for analog logic.
 
 
  <div align="center">:star::star::star::star::star::star:</div> 
