@@ -97,11 +97,11 @@ setplot dc1
 ### :zap: Id vs Vds plots for different nodes
 #### Id vs Vds plot for higher node (NMOS W = 5000 nm and l =2000 nm, supply voltage = 1.8 v, input voltage = 1.8 v)
 
-![Id_vds_h](images/Id_vds_h.png)
+![Id_vds_h](images/id_vds_h.png)
 
 #### Id vs Vds plot for lower node (NMOS W = 390 nm and l = 150 nm, supply voltage = 1.8 v, input voltage = 1.8 v)
 
-![Id_vds_l](images/Id_vds_l.png)
+![Id_vds_l](images/id_vds_l.png)
 
 ### :zap: Analysis and comparision
 #### <mark>Higher node has higher peak current 400 uA and lower node has lower peak current</mark>
@@ -188,7 +188,7 @@ setplot dc1
 ### :zap: Id vs Vgs plots for different nodes with threshold volrtage (consider 10 uA as reference current)
 #### Id vs Vgs plot for higher node (NMOS W = 5000 nm and l =2000 nm, supply voltage = 1.8 v, input voltage = 1.8 v)
 
-![Id_vgs_h](images/Id_vgs_h.png)
+![Id_vgs_h](images/id_vgs_h.png)
 
 ##### Threshold voltage extracion (Let Vth be the Vgs at which Id = 10 uA)
 
@@ -198,7 +198,7 @@ setplot dc1
 
 #### Id vs Vgs plot for lower node (NMOS W = 390 nm and l = 150 nm, supply voltage = 1.8 v, input voltage = 1.8 v)
 
-![Id_vgs_l](images/Id_vgs_l.png)
+![Id_vgs_l](images/id_vgs_l.png)
 
 ##### Threshold voltage extracion (Let Vth be the Vgs at which Id = 10 uA)
 
