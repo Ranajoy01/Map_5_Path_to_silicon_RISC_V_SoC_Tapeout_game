@@ -18,6 +18,15 @@
 
  <div align="center">:star::star::star::star::star::star:</div> 
 
+## :microscope: Velocity Saturation in lower nodes and comparision with longer nodes
+#### :zap: Introduction to lower node effects
+- When channel length becomes lower than 250 nm, it is considered as short channel device.
+- Current behaviour will not remain same as the long channel device.
+- Current will saturate due to velocity saturation effect.
+
+### :zap: Spice deck
+
+  
 
 
  <div align="center">:star::star::star::star::star::star:</div> 
