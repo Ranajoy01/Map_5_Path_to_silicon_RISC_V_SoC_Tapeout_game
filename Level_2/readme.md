@@ -218,10 +218,10 @@ setplot dc1
 
 #### <mark>Threshold voltage difference</mark>
 
-    |Node|Vth|
-    |---|---|
-    |Higher|720 mV|
-    |lower|800 mV|
+|Node|Vth|
+|---|---|
+|Higher|720 mV|
+|lower|800 mV|
 
 - In lower node threshold voltage is higher because inversion layer is affected strongly by drain voltage due to short channel.
 #### <mark>Quadratic relation of Id with Vgs at higher Vds for higher node and linear relation Id with Vgs at higher Vds for lower node </mark>
