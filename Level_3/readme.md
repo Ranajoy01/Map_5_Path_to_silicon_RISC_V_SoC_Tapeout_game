@@ -157,7 +157,7 @@ Vin2 in2 0 PULSE(0V 1.8V 0 0.1ns 0.1ns 2ns 4ns)
  ## :trophy: Level Status: 
 
 - All objectives completed.
-- I have synthesized VSDBabySoC design, performed GLS Simulation and validated GLS with respect to functional simulation.
+- I have learned CMOS inverter  switching threshold with PMOS width vaiation and basic dynamic simulations (rise delay and fall delay).
 - 🔓 Next level unlocked 🔜 [Level-4:  CMOS robustness ( Noise margin evaluation )](../Level_4/readme.md).
   
 <div align="center">:star::star::star::star::star::star:</div> 
