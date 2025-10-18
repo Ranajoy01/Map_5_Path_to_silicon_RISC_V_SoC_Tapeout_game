@@ -8,13 +8,6 @@
 
 [Go to the previous level](../Level_1/readme.md)
 
-<div align="center">:star::star::star::star::star::star:</div> 
-
-# Level-2: Velocity saturation and basics of CMOS inverter voltage transfer characteristics
-## List of Objectives
-
-- :microscope: <b>Practical Objective-1:</b> []()
-
 
  <div align="center">:star::star::star::star::star::star:</div> 
 
