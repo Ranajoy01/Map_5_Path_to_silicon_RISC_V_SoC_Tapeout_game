@@ -135,6 +135,9 @@ Vin2 in2 0 PULSE(0V 1.8V 0 0.1ns 0.1ns 2ns 4ns)
 .end
 
  ```
+ ### :zap: Transient plot (Vout vs time) for different PMOS width
+ ![trans_1](images/trans_1.png)
+ 
  ### :zap: Analysis
  - Rise delay and fall delays from the plot are tabulated in the following table-
    |PMOS width|Rise Delay|Fall Delay|
