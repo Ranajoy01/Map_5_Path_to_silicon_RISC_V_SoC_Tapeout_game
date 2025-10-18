@@ -8,13 +8,6 @@
 
 # Level-1: Setup ngspice and basics of NMOS drain current vs drain to source voltage
 
-## List of Objectives
-
-- :microscope: <b>Practical Objective-1:</b> []()
-
-
- <div align="center">:star::star::star::star::star::star:</div> 
-
 ## :microscope: Setup Ngspice
 ### :zap: Download tarball from [https://sourceforge.net/projects/ngspice/files/ ](https://sourceforge.net/projects/ngspice/files/) to a local directory.
 ### :zap: Unpack it-
