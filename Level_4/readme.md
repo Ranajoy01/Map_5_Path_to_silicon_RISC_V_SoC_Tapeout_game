@@ -74,7 +74,10 @@ Vin2 in2 0 1.8V
 ```
 ### :zap: Noise margin variation plot for CMOS inverter with PMOS width variation
 ![nos_plot](images/nos_plot.png)
+
 ### :zap: Analysis
+- Here for PMOS width 550nm dc1.out1 plot
+- Here for PMOS width 2000 nm dc2.out2 plot 
 - Table of PMOS width, NMh and NMl is-
   |PMOS Width|NMh|NMl|
   |---|---|---|
