@@ -12,12 +12,9 @@
 
 # Level-3: CMOS switching threshold and basic dynamic simulations
 
-## List of Objectives
-
-- :microscope: <b>Practical Objective-1:</b> []()
+## :microscope: CMOS VTC spice simulation and switching threshold 
 
 
- <div align="center">:star::star::star::star::star::star:</div> 
 
 
 
@@ -27,7 +24,7 @@
 
 - All objectives completed.
 - I have synthesized VSDBabySoC design, performed GLS Simulation and validated GLS with respect to functional simulation.
-- 🔓 Next level unlocked 🔜 [Level-2: Fundamentals of Static Timing Analysis (STA)](../Level_2/readme.md).
+- 🔓 Next level unlocked 🔜 [Level-4:  CMOS robustness ( Noise margin evaluation )](../Level_4/readme.md).
   
 <div align="center">:star::star::star::star::star::star:</div> 
 
