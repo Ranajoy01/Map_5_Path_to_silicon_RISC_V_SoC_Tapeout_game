@@ -14,6 +14,11 @@
 
 ## :microscope: CMOS VTC spice simulation and switching threshold 
 
+### :zap: Introduction to VTC of CMOS inverter for different W of PMOS and switching threshold
+- VTC shifts with Width variation of PMOS in any technology node
+- Switching threshold is the point in VTC where Vin = Vout.
+
+### :zap: Spice deck 
 
 
 
