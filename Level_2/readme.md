@@ -121,6 +121,114 @@ setplot dc1
 ---
 
 ### :zap: Spice deck for Id vs Vgs
+#### Spice deck for higher node (NMOS W = 5000 nm and l =2000 nm, supply voltage = 1.8 v, input voltage = 1.8 v)
+```spice
+*Model Description
+.param temp=27
+
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+
+*Netlist Description
+
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=5 l=2
+
+R1 n1 in 55
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vin 0 1.8 0.1 
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end
+
+```
+#### Spice deck for lower node (NMOS W = 390 nm and l = 150 nm, supply voltage = 1.8 v, input voltage = 1.8 v)
+```spice
+*Model Description
+.param temp=27
+
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+
+*Netlist Description
+
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=0.39 l=0.15
+
+R1 n1 in 55
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vin 0 1.8 0.1 
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end
+
+```
+
+### :zap: Id vs Vgs plots for different nodes with threshold volrtage (consider 10 uA as reference current)
+#### Id vs Vgs plot for higher node (NMOS W = 5000 nm and l =2000 nm, supply voltage = 1.8 v, input voltage = 1.8 v)
+
+![Id_vgs_h](images/Id_vgs_h.png)
+
+##### Threshold voltage extracion (Let Vth be the Vgs at which Id = 10 uA)
+
+![th_h](images/th_h.png)
+
+:100: Threshold voltage for higher node = 720 mV
+
+#### Id vs Vgs plot for lower node (NMOS W = 390 nm and l = 150 nm, supply voltage = 1.8 v, input voltage = 1.8 v)
+
+![Id_vgs_l](images/Id_vgs_l.png)
+
+##### Threshold voltage extracion (Let Vth be the Vgs at which Id = 10 uA)
+
+![th_l](images/th_l.png)
+
+:100: Threshold voltage for higher node = 800 mV
+
+### :zap: Analysis and comparision
+#### <mark>Higher node has higher peak current 400 uA and lower node has lower peak current</mark>
+- This occurs due to velocity saturation in short channel device. In lower node, early saturation causes lower peak current.
+- For short channel device different drain current model is used.
+
+#### <mark>Threshold voltage difference</mark>
+
+    |Node|Vth|
+    |---|---|
+    |Higher|720 mV|
+    |lower|800 mV|
+
+- In lower node threshold voltage is higher because inversion layer is affected strongly by drain voltage due to short channel.
+#### <mark>Quadratic relation of Id with Vgs at higher Vds for higher node and linear relation Id with Vgs at higher Vds for lower node </mark>
+- In short channel device at higher vds due to high horizontal electric field vetween source and drain through the channel  caused carriers velocity saturation. This causes linear change of Id with Vgs.
+- Here carrier drift velocity becomes nearly constant thus drift drain current also become constant.
+
+
 
  <div align="center">:star::star::star::star::star::star:</div> 
 
