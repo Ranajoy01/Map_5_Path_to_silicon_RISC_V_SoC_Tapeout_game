@@ -10,7 +10,7 @@
 
 <div align="center">:star::star::star::star::star::star:</div> 
 
-# Level-2: Post synthesis GLS of VSDBabySoC and verification with respect to functional simulation
+# Level-3: CMOS switching threshold and basic dynamic simulations
 
 ## List of Objectives
 
