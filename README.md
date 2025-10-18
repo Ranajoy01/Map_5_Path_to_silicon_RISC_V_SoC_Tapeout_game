@@ -28,7 +28,8 @@
   <summary>:checkered_flag: <b>Level-2:</b>  Velocity saturation and basics of CMOS inverter voltage transfer characteristics </summary>
   
   ##  :checkered_flag: Level-2: Velocity saturation and basics of CMOS inverter voltage transfer characteristics 
-   :rocket:At this stage, I studied some short channel effects and CMOS basics.
+  :rocket:At this stage, I studied some short channel effects and CMOS basics.
+  
   :walking: <b>[Explore Level-2 Gameplay](Level_2/readme.md)</b>
   
   :chart_with_upwards_trend: <b>Level-2 Status:</b> :white_check_mark: Completed
