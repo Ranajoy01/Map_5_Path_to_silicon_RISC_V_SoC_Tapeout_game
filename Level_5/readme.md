@@ -84,8 +84,21 @@ plot tran1.out tran1.in tran2.out tran3.out tran4.out tran5.out tran6.out ylabel
 - In dynamic analysis for lower supply case we observe that output voltage level do not change properly.
 - So instead of advantages like less energy consumption and higher gain (down to certain supply voltage) lower supply voltage can cause improper logic level and reliability.
 
+<div align="center">:star::star::star::star::star::star:</div> 
 
- <div align="center">:star::star::star::star::star::star:</div> 
+## :microscope: Device Variation
+- Device variation occurs in manufacturing process
+  - Etching process (W, L varies)
+    ![etch_var](images/etch_var.png)
+  - Oxidation process (Tox varies)
+    ![oxd_var](images/oxd_var.png)
+  - W,L,Tox these parameters causes variation in Id.
+  - Id causes variation in propagation delay.
+  - In cascading of inverters, inverters in the middle has less effect due to variation (as both side have similar variation) but inverters at edge have larger effect due to variation.
+    ![inverter_chain](images/inverter_chain.png)
+    
+
+<div align="center">:star::star::star::star::star::star:</div> 
 
  ## :trophy: Level Status: 
 
